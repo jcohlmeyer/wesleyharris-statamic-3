@@ -1,0 +1,11 @@
+<nav>
+    <ul class="flex uppercase font-bold text-gray">
+        {{ nav:main_navigation }}
+            <li class="pl-4">
+                <a href="{{ url }}" {{ if is_current || is_parent }} class="text-black"{{ /if }}>
+                    {{ title }}
+                </a>
+            </li>
+        {{ /nav:main_navigation }}
+    </ul>
+</nav>

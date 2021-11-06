@@ -1,0 +1,178 @@
+hide: true
+title: 'About Page'
+sections:
+  main:
+    display: Main
+    fields:
+      -
+        handle: title
+        field:
+          type: text
+          required: true
+          validate:
+            - required
+      -
+        handle: curriculum_vitae_photo
+        field:
+          mode: list
+          container: assets
+          restrict: true
+          allow_uploads: true
+          show_filename: true
+          max_files: 1
+          display: 'Curriculum Vitae Photo'
+          type: assets
+          icon: assets
+          listable: hidden
+          instructions_position: above
+          folder: portraits
+      -
+        handle: curriculum_vitae
+        field:
+          fields:
+            -
+              handle: section_title
+              field:
+                input_type: text
+                antlers: false
+                display: 'Section Title'
+                type: text
+                icon: text
+                listable: hidden
+                instructions_position: above
+            -
+              handle: rows
+              field:
+                fields:
+                  -
+                    handle: date
+                    field:
+                      input_type: text
+                      antlers: false
+                      display: Date
+                      type: text
+                      icon: text
+                      listable: hidden
+                      instructions_position: above
+                      width: 25
+                  -
+                    handle: text
+                    field:
+                      restrict: false
+                      automatic_line_breaks: true
+                      automatic_links: true
+                      escape_markup: true
+                      smartypants: true
+                      antlers: false
+                      display: Text
+                      type: markdown
+                      icon: markdown
+                      listable: hidden
+                      instructions_position: above
+                mode: table
+                reorderable: true
+                display: Rows
+                type: grid
+                icon: grid
+                listable: hidden
+                instructions_position: above
+          mode: stacked
+          add_row: 'Add Section'
+          reorderable: true
+          display: 'Curriculum Vitae'
+          type: grid
+          icon: grid
+          listable: hidden
+          instructions_position: above
+      -
+        handle: artist_statement_photo
+        field:
+          mode: list
+          container: assets
+          folder: portraits
+          restrict: true
+          allow_uploads: true
+          show_filename: true
+          max_files: 1
+          display: 'Artist Statement Photo'
+          type: assets
+          icon: assets
+          listable: hidden
+          instructions_position: above
+      -
+        handle: artist_statement_highlight
+        field:
+          restrict: false
+          automatic_line_breaks: true
+          automatic_links: false
+          escape_markup: false
+          smartypants: false
+          antlers: false
+          display: 'Artist Statement Highlight'
+          type: markdown
+          icon: markdown
+          listable: hidden
+          instructions_position: above
+      -
+        handle: artist_statement
+        field:
+          restrict: false
+          automatic_line_breaks: true
+          automatic_links: false
+          escape_markup: false
+          smartypants: false
+          antlers: false
+          display: 'Artist Statement'
+          type: markdown
+          icon: markdown
+          listable: hidden
+          instructions_position: above
+      -
+        handle: biography_photo
+        field:
+          mode: list
+          container: assets
+          folder: portraits
+          restrict: true
+          allow_uploads: true
+          show_filename: true
+          max_files: 1
+          display: 'Biography Photo'
+          type: assets
+          icon: assets
+          listable: hidden
+          instructions_position: above
+      -
+        handle: biography
+        field:
+          restrict: false
+          automatic_line_breaks: true
+          automatic_links: false
+          escape_markup: false
+          smartypants: false
+          antlers: false
+          display: Biography
+          type: markdown
+          icon: markdown
+          listable: hidden
+          instructions_position: above
+  sidebar:
+    display: Sidebar
+    fields:
+      -
+        handle: slug
+        field:
+          type: slug
+          required: true
+          localizable: true
+          validate:
+            - required
+      -
+        handle: parent
+        field:
+          type: entries
+          collections:
+            - pages
+          max_items: 1
+          listable: false
+          localizable: true
