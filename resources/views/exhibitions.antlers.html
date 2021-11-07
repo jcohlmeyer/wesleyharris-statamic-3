@@ -26,7 +26,9 @@
             <nav>
                 <ul>
                     {{ nav:exhibitions_navigation }}
-                        <li>
+                        <li
+                            class="mb-4"
+                        >
                             <a
                                 href="{{ url }}"
                                 class="
@@ -70,28 +72,24 @@
                 mb-4
             "
         >
-            <figure
-                class="
+            {{ main_photo }}
+                <img
+                    src="{{ url }}"
+                    alt="{{ alt }}"
+                    class="
                     mb-4
                     {{ if text_position == 'right' }}
                         lg:mb-0
                         lg:ml-4
                     {{ /if }}
                 "
-            >
-                {{ main_photo }}
-                    <img
-                        src="{{ url }}"
-                        alt="{{ alt }}"
-                        class=""
-                    />
-                {{ /main_photo }}
-            </figure>
+                />
+            {{ /main_photo }}
             {{ if main_text }}
                 <div
                     class="
                         bg-gray
-                        p-6
+                        p-4
                     "
                 >
                     <figcaption
@@ -107,5 +105,47 @@
                 </div>
             {{ /if }}
         </figure>
+        {{ if photo_grid }}
+            <div
+                class="
+                    sm:grid grid-cols-2 gap-4
+                "
+            >
+                {{ photo_grid }}
+                    <figure
+                        class="
+                            flex flex-col
+                            mb-4
+                        "
+                    >
+                        {{ photo }}
+                            <img
+                                src="{{ glide:url width='500' height='300' }}"
+                                alt="{{ alt }}"
+                                class="{{ if description }}mb-4{{ /if }}"
+                            />
+                        {{ /photo }}
+                        {{ if description }}
+                            <div
+                                class="
+                                    flex-grow
+                                    bg-gray
+                                    p-4
+                                "
+                            >
+                                <figcaption
+                                    class="
+                                        prose
+                                        text-white
+                                    "
+                                >
+                                    {{ description | markdown }}
+                                </figcaption>
+                            </div>
+                        {{ /if }}
+                    </figure>
+                {{ /photo_grid }}
+            </div>
+        {{ /if }}
     </main>
 </div>
