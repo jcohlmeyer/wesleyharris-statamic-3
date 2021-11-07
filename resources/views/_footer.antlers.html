@@ -1,19 +1,24 @@
 <footer
     class="
-        text-white uppercase font-bold
-        bg-gray
-        p-2
-        mx-auto mx-4 my-6
+        mx-auto my-6
         max-w-7xl
-        flex items-center justify-between
     "
 >
-    <div>
-        Copyright &copy; {{ date | format:Y }} Wesley Harris MFA. All Rights Reserved
-    </div>
-    <div>
-        <a href="mailto:metalsmith@wesleyharris.ca">
-            metalsmith@wesleyharris.ca
-        </a>
+    <div
+        class="
+            text-white uppercase font-bold
+            bg-gray
+            p-2 mx-4
+            flex items-center justify-between
+        "
+    >
+        <div>
+            Copyright &copy; {{ date | format:Y }} Wesley Harris MFA. All Rights Reserved
+        </div>
+        <div>
+            <a href="mailto:metalsmith@wesleyharris.ca">
+                metalsmith@wesleyharris.ca
+            </a>
+        </div>
     </div>
 </footer>

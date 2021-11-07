@@ -1,0 +1,111 @@
+<div
+    class="
+        flex flex-col md:flex-row
+    "
+>
+    <div
+        class="
+            md:pr-3
+            flex-grow md:flex-shrink
+            md:flex-basis-1/4
+            md:relative
+        "
+    >
+        <div
+            class="md:sticky top-4 z-40"
+        >
+            <h1
+                class="
+                    text-white uppercase font-bold
+                    bg-gray
+                    mb-4 p-2
+                "
+            >
+                Exhibitions
+            </h1>
+            <nav>
+                <ul>
+                    {{ nav:exhibitions_navigation }}
+                        <li>
+                            <a
+                                href="{{ url }}"
+                                class="
+                                    text-white uppercase font-bold
+                                    block
+                                    p-2
+                                    {{ if is_current || is_parent }}bg-black{{ else }}bg-gray{{ /if }}
+                                "
+                            >
+                                {{ title }}
+                            </a>
+                        </li>
+                    {{ /nav:exhibitions_navigation }}
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <main
+        class="
+            flex-grow md:flex-shrink
+            md:flex-basis-3/4
+            md:pl-3
+            relative
+            pt-6 md:pt-0
+        "
+    >
+        <h2
+            class="
+                text-white uppercase font-bold
+                bg-gray
+                mb-4 p-2
+                sticky top-4 z-40
+            "
+        >
+            {{ title }}
+        </h2>
+        <figure
+            class="
+                flex flex-col
+                {{ if text_position == 'right' }}lg:flex-row{{ /if }}
+                mb-4
+            "
+        >
+            <figure
+                class="
+                    mb-4
+                    {{ if text_position == 'right' }}
+                        lg:mb-0
+                        lg:ml-4
+                    {{ /if }}
+                "
+            >
+                {{ main_photo }}
+                    <img
+                        src="{{ url }}"
+                        alt="{{ alt }}"
+                        class=""
+                    />
+                {{ /main_photo }}
+            </figure>
+            {{ if main_text }}
+                <div
+                    class="
+                        bg-gray
+                        p-6
+                    "
+                >
+                    <figcaption
+                        class="
+                            prose
+                            text-white
+                            {{ if text_position == 'right' }}lg:ml-4{{ /if }}
+                            {{ if text_position == 'below' }}sm:text-col-2{{ /if }}
+                        "
+                    >
+                        {{ main_text | markdown }}
+                    </figcaption>
+                </div>
+            {{ /if }}
+        </figure>
+    </main>
+</div>

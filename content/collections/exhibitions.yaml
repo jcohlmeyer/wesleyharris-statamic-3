@@ -1,0 +1,9 @@
+title: Exhibitions
+template: exhibitions
+layout: layout
+revisions: false
+route: 'exhibitions/{slug}'
+sort_dir: asc
+date_behavior:
+  past: public
+  future: private
