@@ -13,24 +13,31 @@ main_text: |-
 
   My wife, Margaret, and I attended both the opening on September 8th, 2019 (photo left), and the celebrations at the gallery for International Peace Day on September 21st. We played flute and violin duets, another artist played harp, anothers told stories, launched a book, led a workshop, offered yoga and a meditation walk, and spoke about their art. One Canadian artist, whose entire creative output has been on the theme of Peace, spoke about her experience of sharing art with orphans and lepracy patients in Nepal. Another artist from the United States remained on location at Cedar Ridge gallery for two weeks and created a large panel using tracings of hands drawn by people in attendance.
 updated_by: 2d3ae5bf-3720-4ed3-b18c-469dc92f1ec3
-updated_at: 1636282709
+updated_at: 1636458974
 photo_grid:
   -
     photo: exhibitions/32-points/32-points-1.jpg
     description: null
+    image_height: 300
   -
     photo: exhibitions/32-points/32-points-2.jpg
     description: null
+    image_height: 300
   -
     photo: exhibitions/32-points/32-points-3.jpg
     description: null
+    image_height: 300
   -
     photo: exhibitions/32-points/32-points-4.jpg
     description: null
+    image_height: 300
   -
     photo: exhibitions/32-points/32-points-5.jpg
     description: null
+    image_height: 300
   -
     photo: exhibitions/32-points/32-points-6.jpg
     description: null
+    image_height: 300
+grid_image_height: 300
 ---

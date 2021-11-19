@@ -1,9 +1,13 @@
 title: Exhibitions
 template: exhibitions
 layout: layout
+mount: 0ed274f5-255a-4053-8653-7861101651df
 revisions: false
 route: 'exhibitions/{slug}'
 sort_dir: asc
 date_behavior:
   past: public
   future: private
+structure:
+  root: false
+  max_depth: 1

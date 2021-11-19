@@ -3,9 +3,11 @@ tree:
     id: 736957ba-8d9d-443e-83a8-7e763a4d8dff
     entry: home
   -
-    id: 3c9fa769-16ef-4cf3-b59c-bdce9376eba4
-    title: Exhibitions
-    url: /exhibitions/32-points-32-voices-compass-peace
+    id: da34d3e4-5b1b-414a-b1f3-854589553cc4
+    entry: cafc9129-12b9-409b-a504-aa797aabda73
+  -
+    id: 27e6d044-7848-479f-86dc-51888b75f4dd
+    entry: 0ed274f5-255a-4053-8653-7861101651df
   -
     id: 278aeec9-d44d-4f19-b20f-9e1c5d1598ef
     entry: d1f42fd1-cc2d-48a5-ae2c-3b46dfc9a02f

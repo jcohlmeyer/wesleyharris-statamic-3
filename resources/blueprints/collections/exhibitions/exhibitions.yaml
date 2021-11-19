@@ -72,6 +72,17 @@ sections:
                 icon: assets
                 listable: hidden
                 instructions_position: above
+                width: 66
+            -
+              handle: image_height
+              field:
+                display: 'Image Height'
+                type: integer
+                icon: integer
+                width: 33
+                listable: hidden
+                instructions_position: above
+                default: '300'
             -
               handle: description
               field:

@@ -1,0 +1,13 @@
+title: 'Process Series'
+template: process_series
+layout: layout
+mount: cafc9129-12b9-409b-a504-aa797aabda73
+revisions: false
+route: 'process-series/{slug}'
+sort_dir: asc
+date_behavior:
+  past: public
+  future: private
+structure:
+  root: false
+  max_depth: 1

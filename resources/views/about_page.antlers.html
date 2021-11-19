@@ -10,7 +10,7 @@
         {{ curriculum_vitae_photo }}
             <img
                 src="{{ url }}"
-                alt="{{ alt }}"
+                alt="{{ alt | smartypants | entities }}"
                 class="mb-6"
             />
         {{ /curriculum_vitae_photo }}
@@ -96,7 +96,7 @@
             {{ artist_statement_photo }}
                 <img
                     src="{{ url }}"
-                    alt="{{ alt }}"
+                    alt="{{ alt | smartypants | entities }}"
                     class="
                         float-right
                         w-1/3
@@ -125,7 +125,7 @@
             {{ biography_photo }}
                 <img
                     src="{{ url }}"
-                    alt="{{ alt }}"
+                    alt="{{ alt | smartypants | entities }}"
                     class="
                         float-right
                         w-1/2

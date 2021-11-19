@@ -1,0 +1,43 @@
+<div
+    class="
+        md:pr-3
+        flex-grow md:flex-shrink
+        md:flex-basis-1/4
+        md:relative
+    "
+>
+    <div
+        class="md:sticky top-4 z-40"
+    >
+        <h1
+            class="
+                text-white uppercase font-bold
+                bg-gray
+                mb-4 p-2
+            "
+        >
+            {{ navigation_title }}
+        </h1>
+        <nav>
+            <ul>
+                {{ nav :handle='navigation' }}
+                    <li
+                        class="mb-4"
+                    >
+                        <a
+                            href="{{ url }}"
+                            class="
+                                text-white uppercase leading-snug
+                                block
+                                p-2
+                                {{ if is_current || is_parent }}bg-black{{ else }}bg-gray{{ /if }}
+                            "
+                        >
+                            {{ title }}
+                        </a>
+                    </li>
+                {{ /nav }}
+            </ul>
+        </nav>
+    </div>
+</div>
