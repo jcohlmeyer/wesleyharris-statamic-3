@@ -11,7 +11,7 @@ main_text: |-
 
   In 1981 the Chalice won the annual Silver Design Competition, a student competition sponsored by the Silversmith's Guild of America, and this led directly to my being employed as a commercial silver designer.
 updated_by: 2d3ae5bf-3720-4ed3-b18c-469dc92f1ec3
-updated_at: 1637841443
+updated_at: 1647250941
 photo_grid:
   -
     photo: process-series/chalice/chalice-1.jpg
@@ -53,4 +53,36 @@ photo_grid:
     photo: process-series/chalice/chalice-10.jpg
     image_height: 367
     description: 'Remainder of the original ingot.'
+  -
+    photo: process-series/chalice/chalice-11.jpg
+    image_height: 367
+    description: 'This part of the ingot is also rolled to a 1/8" thickness. The process of bending it into a cylinder is underway.'
+  -
+    photo: process-series/chalice/chalice-12.jpg
+    image_height: 367
+    description: 'The cylinder is precisely joined and soldered with high temperature hard silver solder.'
+  -
+    photo: process-series/chalice/chalice-13.jpg
+    image_height: 367
+    description: 'Swaging and flaring the stem. The cylinder is cradled in a steel stake with U-shaped troughs of varying sizes. The size of trough chosen is as close as possible to the diameter of the cylinder. In a process called "swaging," the middle area of the cylinder is hammered with a cross-peen hammer (the oval hammer shape being parallel to the length of the cylinder). As the cylinder becomes reduced in diameter its wall-thickness increases considerably. The two ends are flared by being smithed with a mechanical advantage gained (ie: the inside end of the flare contacts a stake while, just below that contact, the outer surface is smithed with the cross-peen hammer shape perpendicular to the cylinder).'
+  -
+    photo: process-series/chalice/chalice-14.jpg
+    image_height: 367
+    description: 'The flared stem, planished, filed smooth and partly polished. All cuttings and filings left over from having created the bowl and stem are re-melted and poured to create another small ingot.'
+  -
+    photo: process-series/chalice/chalice-15.jpg
+    image_height: 367
+    description: 'The new ingot is rolled to a 1/8" thickness and a disc is cut out.'
+  -
+    photo: process-series/chalice/chalice-16.jpg
+    image_height: 367
+    description: 'A base is smithed from the disc using the "raising" process, and it is planished, filed smooth and partly polished. Also seen is a nearly completed cross-shaped decorative nut which will be set with a cabochon moonstone.'
+  -
+    photo: process-series/chalice/chalice-17.jpg
+    image_height: 367
+    description: 'The finished Chalice disassembled. A threaded brass rod is soldered to the bottom of the bowl, and a sterling spacer is also soldered there. The flared stem will appear to hover in the design between this spacer and another spacer. The base fits on next, and the entire assembly is tightened together with a decorative threaded nut. All the surfaces have been given a mirror-like shine.'
+  -
+    photo: process-series/chalice/chalice-18.jpg
+    image_height: 367
+    description: 'The finished Chalice seen from below showing the decorative nut holding the piece together.'
 ---
