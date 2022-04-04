@@ -8,5 +8,3 @@ preferences:
       columns:
         - title
         - slug
-    process_series:
-      after_save: continue_editing
