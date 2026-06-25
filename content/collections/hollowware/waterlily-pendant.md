@@ -1,0 +1,27 @@
+---
+id: a047ee84-5cb8-4eec-9b74-4147f214fec5
+blueprint: hollowware
+title: 'Waterlily Pendant'
+category: pendants
+jewellery_categories:
+  - pendants
+main_photo: pendants/waterlily-pendant/dsc_3823_1.jpg
+text_position: right
+materials:
+  - 'Sterling Silver'
+  - 'Ruby'
+dimensions: '1.3" high, 1.0" wide'
+for_sale: false
+photo_grid:
+  -
+    photo: pendants/waterlily-pendant/dsc_3823_1.jpg
+    image_height: 367
+  -
+    photo: pendants/waterlily-pendant/dsc_3833_0.jpg
+    image_height: 367
+  -
+    photo: pendants/waterlily-pendant/dsc_3818.jpg
+    image_height: 367
+updated_by: 2d3ae5bf-3720-4ed3-b18c-469dc92f1ec3
+updated_at: 1719273600
+---

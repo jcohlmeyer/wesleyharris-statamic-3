@@ -1,0 +1,91 @@
+<div
+    class="
+        flex flex-col md:flex-row
+    "
+>
+    <div
+        class="
+            md:pr-3
+            flex-grow md:flex-shrink
+            md:flex-basis-1/4
+            md:relative
+        "
+    >
+        <div class="md:sticky top-4 z-40">
+            <h1
+                class="
+                    text-white uppercase font-bold
+                    bg-gray
+                    mb-4 p-2
+                "
+            >
+                Jewellery & Hollowware
+            </h1>
+            <nav>
+                <ul>
+                    {{ taxonomy:jewellery_categories sort="order" }}
+                        <li class="mb-4">
+                            <a
+                                href="/{{ slug }}"
+                                class="
+                                    text-white uppercase leading-snug
+                                    block
+                                    p-2
+                                    {{ if is_current || is_parent }}bg-black{{ else }}bg-gray{{ /if }}
+                                "
+                            >
+                                {{ title }}
+                            </a>
+                        </li>
+                    {{ /taxonomy:jewellery_categories }}
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <main
+        class="
+            flex-grow md:flex-shrink md:flex-basis-3/4
+            pt-6 md:pt-0
+        "
+    >
+        <h2
+            class="
+                text-white uppercase font-bold
+                bg-gray
+                mb-4 p-2
+                sticky top-4 z-40
+            "
+        >
+            {{ title }}
+        </h2>
+        <div
+            class="
+                grid gap-4
+                grid-cols-2 xl:grid-cols-3
+            "
+        >
+            {{ collection:hollowware :taxonomy:jewellery_categories="slug" }}
+                <a href="{{ url }}">
+                    {{ main_photo }}
+                        <img
+                            src="{{ glide:url height='313' width='475' }}"
+                            alt="{{ alt | smartypants | entities }}"
+                            loading="lazy"
+                            decoding="async"
+                        />
+                    {{ /main_photo }}
+                    <span
+                        class="
+                            block
+                            text-white uppercase font-bold
+                            bg-gray
+                            p-2 mt-2
+                        "
+                    >
+                        {{ title }}
+                    </span>
+                </a>
+            {{ /collection:hollowware }}
+        </div>
+    </main>
+</div>

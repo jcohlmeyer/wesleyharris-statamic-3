@@ -1,7 +1,6 @@
 ---
 title: Home
 id: home
-template: home
-blueprint: pages
+blueprint: link
+redirect: /hollowware
 ---
-Welcome to your new Statamic website.

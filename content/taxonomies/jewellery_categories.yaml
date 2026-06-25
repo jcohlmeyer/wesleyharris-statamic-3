@@ -1,0 +1,4 @@
+title: 'Jewellery Categories'
+route: '/{slug}'
+template: taxonomies/jewellery_categories/show
+layout: layout

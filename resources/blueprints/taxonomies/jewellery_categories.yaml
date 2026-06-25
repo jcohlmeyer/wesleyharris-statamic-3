@@ -1,0 +1,19 @@
+title: 'Jewellery Categories'
+sections:
+  main:
+    display: Main
+    fields:
+      -
+        handle: title
+        field:
+          type: text
+          required: true
+          validate:
+            - required
+      -
+        handle: order
+        field:
+          display: Order
+          type: integer
+          listable: hidden
+          instructions_position: above

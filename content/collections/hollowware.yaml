@@ -1,0 +1,11 @@
+title: 'Jewellery & Hollowware'
+template: hollowware
+layout: layout
+revisions: false
+route: '{category}/{slug}'
+sort_dir: asc
+taxonomies:
+  - jewellery_categories
+structure:
+  root: false
+  max_depth: 1
