@@ -1,0 +1,9 @@
+title: Home
+sections:
+  main:
+    fields:
+      -
+        handle: title
+        field:
+          type: text
+          required: true
