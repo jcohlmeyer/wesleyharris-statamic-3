@@ -7,3 +7,23 @@ sections:
         field:
           type: text
           required: true
+      -
+        handle: featured_process_series
+        field:
+          type: entries
+          display: 'Featured Process Series'
+          instructions: 'Choose the process series to highlight. Defaults to the first in the collection if left empty.'
+          collections:
+            - process_series
+          max_items: 1
+          mode: default
+      -
+        handle: featured_works
+        field:
+          type: entries
+          display: 'Featured Works for Sale'
+          instructions: 'Choose up to four works to feature. Defaults to the first four for-sale works if left empty.'
+          collections:
+            - hollowware
+          max_items: 4
+          mode: default

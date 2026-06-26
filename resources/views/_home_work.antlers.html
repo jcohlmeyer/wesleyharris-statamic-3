@@ -1,0 +1,23 @@
+<a href="{{ url }}" class="block">
+    {{ main_photo }}
+    <img
+        src="{{ glide:url width='400' height='400' fit='crop_focal' }}"
+        alt="{{ alt | smartypants | entities }}"
+        class="w-full"
+        loading="lazy"
+        decoding="async"
+    />
+    {{ /main_photo }}
+    <span class="
+        block
+        text-white uppercase font-bold
+        bg-gray
+        p-2 mt-2
+        text-sm leading-snug
+    ">
+        {{ title }}
+        {{ if price }}
+        <span class="block font-normal opacity-75 mt-1">${{ price | format_number }}</span>
+        {{ /if }}
+    </span>
+</a>
