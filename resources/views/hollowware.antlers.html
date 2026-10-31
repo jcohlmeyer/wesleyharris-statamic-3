@@ -132,8 +132,9 @@
                             <dd class="text-sm mt-1">{{ sale_note }}</dd>
                         {{ /if }}
                         <dd class="mt-3">
-                            <a
-                                href="mailto:metalsmith@wesleyharris.ca?subject=Enquiry: {{ title }}"
+                            <button
+                                type="button"
+                                data-inquire-open
                                 class="
                                     inline-block
                                     uppercase font-bold text-sm tracking-wide
@@ -142,10 +143,152 @@
                                     hover:bg-white hover:text-gray
                                 "
                             >
-                                Contact to Purchase
-                            </a>
+                                Inquire
+                            </button>
                         </dd>
                     </dl>
+
+                    {{#
+                        Inquiry modal using the native <dialog> element (showModal
+                        gives the backdrop, Esc-to-close, focus trap and top-layer
+                        for free). Pre-filled server-side with this piece. The
+                        Netlify form (data-netlify, hidden form-name, honeypot) sits
+                        in the static HTML on every for-sale page, which is how
+                        Netlify detects and captures it.
+                    #}}
+                    <dialog
+                        data-inquire-modal
+                        class="
+                            bg-white text-black
+                            w-full max-w-lg
+                            p-0
+                        "
+                    >
+                        {{# Gray title bar, matching the site's section headers. #}}
+                        <div class="bg-gray text-white uppercase font-bold px-6 py-2 flex items-center justify-between">
+                            <span class="pr-4">Inquire about {{ title }}</span>
+                            <button
+                                type="button"
+                                data-inquire-close
+                                aria-label="Close"
+                                class="
+                                    flex-shrink-0
+                                    flex items-center justify-center
+                                    w-6 h-6
+                                    border border-white
+                                    hover:bg-white hover:text-gray
+                                "
+                            >
+                                {{# Heroicons x-mark (MIT); inherits currentColor. #}}
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-4 h-4">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
+                                </svg>
+                            </button>
+                        </div>
+
+                        <div class="p-6">
+                            <div data-inquire-form>
+                                <form
+                                    name="inquire"
+                                    method="POST"
+                                    data-netlify="true"
+                                    netlify-honeypot="bot-field"
+                                    action="/"
+                                >
+                                    <input type="hidden" name="form-name" value="inquire">
+                                    <input type="hidden" name="piece" value="{{ title }}">
+                                    <input type="hidden" name="piece_url" value="{{ permalink }}">
+
+                                    {{# Honeypot: hidden from people, tempting to bots. #}}
+                                    <p class="hidden">
+                                        <label>Don’t fill this out if you’re human: <input name="bot-field"></label>
+                                    </p>
+
+                                    <div class="mb-3">
+                                        <label for="inquire-name" class="block uppercase font-bold text-sm mb-1">Name</label>
+                                        <input type="text" id="inquire-name" name="name" required class="w-full border border-gray bg-white px-3 py-2">
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="inquire-email" class="block uppercase font-bold text-sm mb-1">Email</label>
+                                        <input type="email" id="inquire-email" name="email" required class="w-full border border-gray bg-white px-3 py-2">
+                                    </div>
+                                    <div class="mb-4">
+                                        <label for="inquire-message" class="block uppercase font-bold text-sm mb-1">Message</label>
+                                        <textarea id="inquire-message" name="message" rows="5" required class="w-full border border-gray bg-white px-3 py-2">I’m interested in “{{ title }}”. Please let me know about availability and purchasing.</textarea>
+                                    </div>
+
+                                    <button
+                                        type="submit"
+                                        class="
+                                            inline-block
+                                            uppercase font-bold text-sm tracking-wide
+                                            border border-gray
+                                            px-4 py-2
+                                            hover:bg-gray hover:text-white
+                                        "
+                                    >
+                                        Send inquiry
+                                    </button>
+                                </form>
+                            </div>
+
+                            <div data-inquire-success hidden>
+                                <p class="font-bold mb-2">Thank you.</p>
+                                <p class="text-sm">Your inquiry has been sent. Wesley will be in touch soon.</p>
+                            </div>
+                        </div>
+                    </dialog>
+
+                    <style>
+                        {{# Keep the UA modal centering; just drop the default border.
+                            The dialog stays position:absolute (its UA default), so the
+                            absolutely-positioned close button anchors to it. #}}
+                        dialog[data-inquire-modal] { border: 0; }
+                        dialog[data-inquire-modal]::backdrop { background: rgba(0, 0, 0, 0.8); }
+                    </style>
+
+                    <script>
+                        (function () {
+                            var modal = document.querySelector('dialog[data-inquire-modal]');
+                            if (!modal) return;
+
+                            var openBtn = document.querySelector('[data-inquire-open]');
+                            var closeBtn = modal.querySelector('[data-inquire-close]');
+                            var form = modal.querySelector('form');
+                            var formWrap = modal.querySelector('[data-inquire-form]');
+                            var success = modal.querySelector('[data-inquire-success]');
+
+                            if (openBtn) openBtn.addEventListener('click', function () {
+                                if (typeof modal.showModal === 'function') modal.showModal();
+                                else modal.setAttribute('open', ''); // minimal fallback for very old browsers
+                            });
+                            if (closeBtn) closeBtn.addEventListener('click', function () { modal.close(); });
+
+                            {{# Native <dialog> dispatches backdrop clicks to the dialog itself. #}}
+                            modal.addEventListener('click', function (e) {
+                                if (e.target === modal) modal.close();
+                            });
+
+                            {{# Submit over AJAX so the visitor stays on the page; Netlify
+                                captures a POST to any path as long as form-name is set. #}}
+                            if (form) {
+                                form.addEventListener('submit', function (e) {
+                                    e.preventDefault();
+                                    var body = new URLSearchParams(new FormData(form)).toString();
+                                    fetch('/', {
+                                        method: 'POST',
+                                        headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+                                        body: body
+                                    }).then(function () {
+                                        formWrap.hidden = true;
+                                        success.hidden = false;
+                                    }).catch(function () {
+                                        form.submit(); // fall back to a normal Netlify POST
+                                    });
+                                });
+                            }
+                        })();
+                    </script>
                 {{ /if }}
             </div>
         </figure>
