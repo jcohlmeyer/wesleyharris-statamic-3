@@ -1,0 +1,16 @@
+# Netlify build configuration for the statically generated Statamic site.
+# Netlify cannot run PHP at request time, so the build image compiles the
+# site to plain HTML with statamic/ssg and Netlify serves the result.
+
+[build]
+  # 1. Install PHP dependencies  2. build front-end assets (Laravel Mix)
+  # 3. render every page to static HTML into storage/app/static
+  command = "composer install --no-dev --prefer-dist --optimize-autoloader && npm ci && npm run production && php please ssg:generate"
+  publish = "storage/app/static"
+
+[build.environment]
+  PHP_VERSION = "8.3"
+  NODE_VERSION = "22"
+  # APP_KEY and APP_URL must be set as site environment variables in the
+  # Netlify UI (Site settings → Environment variables), not committed here.
+  # APP_URL should be the production URL, e.g. https://wesleyharris.ca
