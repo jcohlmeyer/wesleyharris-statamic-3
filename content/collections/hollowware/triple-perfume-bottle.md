@@ -5,26 +5,27 @@ title: 'Triple Perfume Bottle'
 category: hollowware
 jewellery_categories:
   - hollowware
-main_photo: hollowware/triple-perfume-bottle/dsc_4330_0_1.jpg
+main_photo: hollowware/triple-perfume-bottle/dsc_4332_1.jpg
 text_position: right
+year: '1992'
 materials:
   - 'Sterling Silver'
-  - 'Ebony'
-  - 'Ruby'
-  - 'Sapphire'
-  - 'Emerald'
+  - Ebony
+  - Ruby
+  - Sapphire
+  - Emerald
 dimensions: '5" high, 3" wide'
 for_sale: false
 photo_grid:
   -
     photo: hollowware/triple-perfume-bottle/dsc_4330_0_1.jpg
-    image_height: 367
+    image_height: 444
   -
     photo: hollowware/triple-perfume-bottle/dsc_4329_1.jpg
-    image_height: 367
+    image_height: 444
   -
     photo: hollowware/triple-perfume-bottle/dsc_4334_1.jpg
-    image_height: 367
+    image_height: 444
 updated_by: 2d3ae5bf-3720-4ed3-b18c-469dc92f1ec3
 updated_at: 1719273600
 ---

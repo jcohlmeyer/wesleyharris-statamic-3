@@ -5,25 +5,25 @@ title: 'Rhodochrosite Butterfly Brooch'
 category: brooches
 jewellery_categories:
   - brooches
-main_photo: brooches/rhodochrosite-butterfly/dsc_2832_1.jpg
+main_photo: brooches/rhodochrosite-butterfly/dsc_2832_1-2.jpg
 text_position: right
 materials:
   - 'Sterling Silver'
   - 'Pure Silver'
   - 'Rhodochrosite (stalactite or nodule form)'
-  - 'Citrine'
+  - Citrine
   - 'Garnets (4)'
 dimensions: '2.95" high, 2.85" wide'
 for_sale: true
 price: 1600
-sale_note: 'Available for sale within Canada only. E-transfer payment in full required prior to shipping.'
+sale_note: 'E-transfer in full and a mailing address must be received prior to shipping.'
 photo_grid:
   -
-    photo: brooches/rhodochrosite-butterfly/dsc_2832_1.jpg
-    image_height: 367
-  -
     photo: brooches/rhodochrosite-butterfly/dsc_2834_1.jpg
-    image_height: 367
+    image_height: 444
+  -
+    photo: brooches/rhodochrosite-butterfly/dsc_2832_1.jpg
+    image_height: 444
 updated_by: 2d3ae5bf-3720-4ed3-b18c-469dc92f1ec3
 updated_at: 1719273600
 ---

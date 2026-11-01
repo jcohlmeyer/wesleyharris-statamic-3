@@ -7,6 +7,7 @@ jewellery_categories:
   - brooches
 main_photo: brooches/geode-slice-amethyst-crystals/dsc_4240.jpg
 text_position: right
+year: '1996'
 materials:
   - 'Sterling Silver'
   - 'Geode Slice with Amethyst Crystals'
@@ -14,8 +15,8 @@ dimensions: '1.15" high, 1.35" wide'
 for_sale: false
 photo_grid:
   -
-    photo: brooches/geode-slice-amethyst-crystals/dsc_4240.jpg
-    image_height: 367
+    photo: brooches/geode-slice-amethyst-crystals/dsc_4241_1.jpg
+    image_height: 444
 updated_by: 2d3ae5bf-3720-4ed3-b18c-469dc92f1ec3
 updated_at: 1719273600
 ---

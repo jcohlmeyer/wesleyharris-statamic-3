@@ -7,24 +7,19 @@ jewellery_categories:
   - rings
 main_photo: rings/large-pattern-along-finger/dsc_3003_01.jpg
 text_position: right
-main_text: |-
-  This ring with a large pattern along the finger is available in Canada only.
 materials:
   - 'Sterling Silver'
 dimensions: '1.1" high, 1.25" long, Size 10'
 for_sale: true
 price: 490
-sale_note: 'Available for sale within Canada only. E-transfer payment in full required prior to shipping.'
+sale_note: 'E-transfer in full and a mailing address must be received prior to shipping.'
 photo_grid:
   -
-    photo: rings/large-pattern-along-finger/dsc_3003_01.jpg
-    image_height: 367
-  -
     photo: rings/large-pattern-along-finger/dsc_3007_01_0.jpg
-    image_height: 367
+    image_height: 444
   -
     photo: rings/large-pattern-along-finger/dsc_3013_01.jpg
-    image_height: 367
+    image_height: 444
 updated_by: 2d3ae5bf-3720-4ed3-b18c-469dc92f1ec3
 updated_at: 1719273600
 ---

@@ -14,3 +14,14 @@
   # APP_KEY and APP_URL must be set as site environment variables in the
   # Netlify UI (Site settings → Environment variables), not committed here.
   # APP_URL should be the production URL, e.g. https://wesleyharris.ca
+
+# Old URLs whose slugs couldn't carry over unchanged.
+[[redirects]]
+  from = "/pendants/agatized-coral"
+  to = "/pendants/agatized-coral-pendant"
+  status = 301
+
+[[redirects]]
+  from = "/pendants/abalone-shell-and-campeche-wood-inlay-%E2%80%9Csunset%E2%80%9D-pendant"
+  to = "/pendants/abalone-shell-and-campeche-wood-inlay-sunset-pendant"
+  status = 301

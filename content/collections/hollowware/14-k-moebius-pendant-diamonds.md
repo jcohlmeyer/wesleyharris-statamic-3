@@ -7,22 +7,20 @@ jewellery_categories:
   - pendants
 main_photo: pendants/14-k-moebius-pendant-diamonds/dsc_0314.jpg
 text_position: right
+year: '2015'
 materials:
   - '14 k Yellow Gold'
-  - 'Platinum'
+  - Platinum
   - 'Diamonds (5)'
 dimensions: '1.2" high, 0.85" wide, 0.3" deep'
 for_sale: false
 photo_grid:
   -
-    photo: pendants/14-k-moebius-pendant-diamonds/dsc_0314.jpg
-    image_height: 367
-  -
     photo: pendants/14-k-moebius-pendant-diamonds/dsc_0298.jpg
-    image_height: 367
+    image_height: 444
   -
     photo: pendants/14-k-moebius-pendant-diamonds/dsc_0288.jpg
-    image_height: 367
+    image_height: 444
 updated_by: 2d3ae5bf-3720-4ed3-b18c-469dc92f1ec3
 updated_at: 1719273600
 ---

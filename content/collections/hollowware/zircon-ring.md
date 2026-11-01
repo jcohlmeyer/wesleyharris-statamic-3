@@ -7,21 +7,22 @@ jewellery_categories:
   - rings
 main_photo: rings/zircon-ring/zircon_ring_5.jpg
 text_position: right
+year: '1999'
 materials:
   - '14 k. Yellow Gold'
-  - 'Zircon'
+  - Zircon
 dimensions: '1.33" high, 0.75" wide'
 for_sale: false
 photo_grid:
   -
-    photo: rings/zircon-ring/zircon_ring_5.jpg
-    image_height: 367
-  -
     photo: rings/zircon-ring/zircon_ring_4.jpg
-    image_height: 367
+    image_height: 444
   -
     photo: rings/zircon-ring/zircon_ring_6.jpg
-    image_height: 367
+    image_height: 444
+  -
+    photo: rings/zircon-ring/zircon_ring_7.jpg
+    image_height: 444
 updated_by: 2d3ae5bf-3720-4ed3-b18c-469dc92f1ec3
 updated_at: 1719273600
 ---

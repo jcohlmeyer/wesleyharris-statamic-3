@@ -7,6 +7,7 @@ jewellery_categories:
   - rings
 main_photo: rings/gold-and-sterling-weave/dsc_9774.jpg
 text_position: right
+year: '2012'
 materials:
   - '14 k. Yellow Gold'
   - 'Sterling Silver'
@@ -14,14 +15,14 @@ dimensions: '0.80" high, 0.33" wide'
 for_sale: false
 photo_grid:
   -
-    photo: rings/gold-and-sterling-weave/dsc_9774.jpg
-    image_height: 367
-  -
     photo: rings/gold-and-sterling-weave/dsc_9761.jpg
-    image_height: 367
+    image_height: 444
   -
     photo: rings/gold-and-sterling-weave/dsc_9778.jpg
-    image_height: 367
+    image_height: 444
+  -
+    photo: rings/gold-and-sterling-weave/dsc_9759.jpg
+    image_height: 444
 updated_by: 2d3ae5bf-3720-4ed3-b18c-469dc92f1ec3
 updated_at: 1719273600
 ---

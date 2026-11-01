@@ -7,15 +7,17 @@ jewellery_categories:
   - earrings
 main_photo: earrings/orange-labradorite-earrings/dsc_3031.jpg
 text_position: right
+year: '2012'
 materials:
   - 'Sterling Silver'
   - 'Orange Labradorite'
 dimensions: '1.5" high, 0.45" wide'
+process_series: 6ce5b956-8cfc-4504-bfdc-d66ce27d09a9
 for_sale: false
 photo_grid:
   -
-    photo: earrings/orange-labradorite-earrings/dsc_3031.jpg
-    image_height: 367
+    photo: earrings/orange-labradorite-earrings/dsc_3033_1.jpg
+    image_height: 444
 updated_by: 2d3ae5bf-3720-4ed3-b18c-469dc92f1ec3
 updated_at: 1719273600
 ---

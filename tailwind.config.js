@@ -24,6 +24,7 @@ module.exports = {
             black: '#222',
             gray: '#58585a',
             white: '#f9f9f9',
+            red: '#d0021b',
         },
         extend: {
             typography: {

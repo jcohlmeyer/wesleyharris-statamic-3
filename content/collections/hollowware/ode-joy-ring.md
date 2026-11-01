@@ -7,22 +7,22 @@ jewellery_categories:
   - rings
 main_photo: rings/ode-joy-ring/dsc_3209.jpg
 text_position: right
-main_text: |-
-  This ring quotes the opening phrase of the Ode to Joy theme from the finale of Beethoven's 9th Symphony.
+main_text: "This ring quotes the opening phrase of the Ode to Joy theme from the finale of Beethoven's 9th Symphony."
+year: '2020'
 materials:
   - 'Sterling Silver'
 dimensions: '0.75" high, 0.3" wide'
 for_sale: false
 photo_grid:
   -
-    photo: rings/ode-joy-ring/dsc_3209.jpg
-    image_height: 367
-  -
     photo: rings/ode-joy-ring/dsc_3179.jpg
-    image_height: 367
+    image_height: 444
   -
     photo: rings/ode-joy-ring/dsc_3183.jpg
-    image_height: 367
+    image_height: 444
+  -
+    photo: rings/ode-joy-ring/dsc_3216.jpg
+    image_height: 444
 updated_by: 2d3ae5bf-3720-4ed3-b18c-469dc92f1ec3
 updated_at: 1719273600
 ---

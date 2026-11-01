@@ -7,30 +7,26 @@ jewellery_categories:
   - hollowware
 main_photo: hollowware/stone-inlay-wall-hanging/dsc_4185.jpg
 text_position: right
-main_text: |-
-  In this stone carving, I found it immensely satisfying to combine the given colours and patterns so as to create a painterly effect.
+main_text: 'In this stone carving, I found it immensely satisfying to combine the given colours and patterns so as to create a painterly effect.'
 materials:
   - 'Sterling silver'
   - 'Newfoundland stone'
-  - 'Tiger-iron'
+  - Tiger-iron
   - 'Naturally weathered wood'
-dimensions: '4" × 4" × 0.30"'
+dimensions: '4" square, 0.30" thick'
 for_sale: true
 price: 7900
-sale_note: 'Available for sale within Canada only. E-transfer payment in full required prior to shipping.'
+sale_note: 'E-transfer in full and a mailing address must be received prior to shipping.'
 photo_grid:
   -
-    photo: hollowware/stone-inlay-wall-hanging/dsc_4185.jpg
-    image_height: 367
-  -
     photo: hollowware/stone-inlay-wall-hanging/dsc_3909_1.jpg
-    image_height: 367
+    image_height: 444
   -
     photo: hollowware/stone-inlay-wall-hanging/dsc_4684.jpg
-    image_height: 367
+    image_height: 444
   -
     photo: hollowware/stone-inlay-wall-hanging/dsc_4678.jpg
-    image_height: 367
+    image_height: 444
 updated_by: 2d3ae5bf-3720-4ed3-b18c-469dc92f1ec3
 updated_at: 1719273600
 ---

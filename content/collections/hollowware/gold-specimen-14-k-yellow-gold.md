@@ -7,6 +7,7 @@ jewellery_categories:
   - pendants
 main_photo: pendants/gold-specimen-14-k-yellow-gold/dsc_4291.jpg
 text_position: right
+year: '2003'
 materials:
   - '14 k. Yellow Gold'
   - 'Pure Gold Natural Specimen'
@@ -14,8 +15,8 @@ dimensions: '1.85" high, 1" wide'
 for_sale: false
 photo_grid:
   -
-    photo: pendants/gold-specimen-14-k-yellow-gold/dsc_4291.jpg
-    image_height: 367
+    photo: pendants/gold-specimen-14-k-yellow-gold/dsc_4293_1.jpg
+    image_height: 444
 updated_by: 2d3ae5bf-3720-4ed3-b18c-469dc92f1ec3
 updated_at: 1719273600
 ---

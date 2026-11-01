@@ -5,8 +5,9 @@ title: 'Dutch Tea Spoon'
 category: hollowware
 jewellery_categories:
   - hollowware
-main_photo: hollowware/dutch-tea-spoon/dsc_4192_0_1.jpg
+main_photo: hollowware/dutch-tea-spoon/dsc_4094_1.jpg
 text_position: right
+year: '2001'
 materials:
   - 'Sterling Silver'
 dimensions: '4" long, 1" wide'
@@ -14,7 +15,7 @@ for_sale: false
 photo_grid:
   -
     photo: hollowware/dutch-tea-spoon/dsc_4192_0_1.jpg
-    image_height: 367
+    image_height: 444
 updated_by: 2d3ae5bf-3720-4ed3-b18c-469dc92f1ec3
 updated_at: 1719273600
 ---

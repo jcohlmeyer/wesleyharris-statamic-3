@@ -7,6 +7,7 @@ jewellery_categories:
   - pendants
 main_photo: pendants/spessartine-garnet-14-k-white-gold/dsc_3983.jpg
 text_position: right
+year: '2005'
 materials:
   - '14 k. White Gold'
   - 'Spessartine Garnet'
@@ -14,8 +15,8 @@ dimensions: '0.5" high, 0.35" wide'
 for_sale: false
 photo_grid:
   -
-    photo: pendants/spessartine-garnet-14-k-white-gold/dsc_3983.jpg
-    image_height: 367
+    photo: pendants/spessartine-garnet-14-k-white-gold/dsc_3985_1.jpg
+    image_height: 444
 updated_by: 2d3ae5bf-3720-4ed3-b18c-469dc92f1ec3
 updated_at: 1719273600
 ---

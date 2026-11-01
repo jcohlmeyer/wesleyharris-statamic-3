@@ -7,24 +7,25 @@ jewellery_categories:
   - rings
 main_photo: rings/marquise-diamond-ring/dsc_4554_1.jpg
 text_position: right
-main_text: |-
-  Inspired by vines wrapping around themselves (yellow gold) and around a central strand (white gold)...
+main_text: 'Inspired by vines wrapping around themselves (yellow gold) and around a central strand (white gold)...'
+year: '2012'
 materials:
   - '14 k. Yellow Gold'
   - '14 k. White Gold'
   - 'Marquise Diamond'
 dimensions: '0.85" high, 0.75" wide'
+process_series: e7166576-7918-47f5-b5b3-338cefd328b9
 for_sale: false
 photo_grid:
   -
-    photo: rings/marquise-diamond-ring/dsc_4554_1.jpg
-    image_height: 367
-  -
     photo: rings/marquise-diamond-ring/dsc_4524_1.jpg
-    image_height: 367
+    image_height: 444
   -
     photo: rings/marquise-diamond-ring/dsc_4537_0_1.jpg
-    image_height: 367
+    image_height: 444
+  -
+    photo: rings/marquise-diamond-ring/dsc_4551_0_1.jpg
+    image_height: 444
 updated_by: 2d3ae5bf-3720-4ed3-b18c-469dc92f1ec3
 updated_at: 1719273600
 ---

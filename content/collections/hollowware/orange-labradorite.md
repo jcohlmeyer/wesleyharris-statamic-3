@@ -7,8 +7,7 @@ jewellery_categories:
   - pendants
 main_photo: pendants/orange-labradorite/dsc_2953.jpg
 text_position: right
-main_text: |-
-  The iridescence and pattern within this labradorite can be seen as if northern lights above a snowy hillside forest, and the three diamonds are like stars in the night sky.
+main_text: 'The iridescence and pattern within this labradorite can be seen as if northern lights above a snowy hillside forest, and the three diamonds are like stars in the night sky.'
 materials:
   - 'Sterling Silver'
   - 'Orange Labradorite'
@@ -16,11 +15,11 @@ materials:
 dimensions: '4.85" high x 1.85" wide'
 for_sale: true
 price: 2495
-sale_note: 'Available for sale within Canada only. E-transfer payment in full required prior to shipping.'
+sale_note: 'E-transfer in full and a mailing address must be received prior to shipping.'
 photo_grid:
   -
-    photo: pendants/orange-labradorite/dsc_2953.jpg
-    image_height: 367
+    photo: pendants/orange-labradorite/orange_labradorite_pendant_-_1_altered.jpg
+    image_height: 444
 updated_by: 2d3ae5bf-3720-4ed3-b18c-469dc92f1ec3
 updated_at: 1719273600
 ---

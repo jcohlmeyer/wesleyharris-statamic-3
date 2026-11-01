@@ -13,11 +13,11 @@ materials:
 dimensions: '1.3" high, 4.6" long, 1.6" wide'
 for_sale: true
 price: 1750
-sale_note: 'Available for sale within Canada only. E-transfer payment in full required prior to shipping.'
+sale_note: 'E-transfer in full and a mailing address must be received prior to shipping.'
 photo_grid:
   -
-    photo: accessories/bare-foot-shoehorn/dsc_1155.jpg
-    image_height: 367
+    photo: accessories/bare-foot-shoehorn/dsc_1173.jpg
+    image_height: 444
 updated_by: 2d3ae5bf-3720-4ed3-b18c-469dc92f1ec3
 updated_at: 1719273600
 ---

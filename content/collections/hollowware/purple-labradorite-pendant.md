@@ -7,19 +7,20 @@ jewellery_categories:
   - pendants
 main_photo: pendants/purple-labradorite-pendant/purple_labradorite_pendant_8.jpg
 text_position: right
-main_text: |-
-  The orange labradorite set with a brillinant citrine merges into purple iridescence as if the sun is burning through a mist. Three birds of prey appear as if taking wing on morning thermals.
+main_text: 'The orange labradorite set with a brillinant citrine merges into purple iridescence as if the sun is burning through a mist. Three birds of prey appear as if taking wing on morning thermals.'
+year: '2007'
 materials:
   - 'Sterling Silver'
   - '14 k. Yellow Gold'
-  - 'Labradorite'
-  - 'Citrine'
+  - Labradorite
+  - Citrine
 dimensions: '2.75" high x 2.5" wide'
+process_series: c1c3417b-c340-434e-9c8a-a12eaa27eec1
 for_sale: false
 photo_grid:
   -
-    photo: pendants/purple-labradorite-pendant/purple_labradorite_pendant_8.jpg
-    image_height: 367
+    photo: pendants/purple-labradorite-pendant/purple-labradorite-pendant-3-2_1.jpg
+    image_height: 444
 updated_by: 2d3ae5bf-3720-4ed3-b18c-469dc92f1ec3
 updated_at: 1719273600
 ---
