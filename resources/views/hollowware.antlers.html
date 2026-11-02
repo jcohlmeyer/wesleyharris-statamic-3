@@ -12,7 +12,9 @@
         "
     >
         <div class="md:sticky top-4 z-40">
-            {{ jewellery_categories }}
+            {{ current_id = id }}
+            {{# Pin/pendants sit in two categories; the sidebar follows the first. #}}
+            {{ jewellery_categories | limit:1 }}
                 <h1
                     class="
                         text-white uppercase font-bold
@@ -22,27 +24,26 @@
                 >
                     <a href="{{ url }}" class="text-white">{{ title }}</a>
                 </h1>
+                <nav>
+                    <ul>
+                        {{ collection:hollowware :taxonomy:jewellery_categories="slug" sort="for_sale:desc|order:asc" }}
+                            <li class="mb-4">
+                                <a
+                                    href="{{ url }}"
+                                    class="
+                                        text-white uppercase leading-snug
+                                        block
+                                        p-2
+                                        {{ if id == current_id }}bg-black{{ else }}bg-gray{{ /if }}
+                                    "
+                                >
+                                    {{ title }}
+                                </a>
+                            </li>
+                        {{ /collection:hollowware }}
+                    </ul>
+                </nav>
             {{ /jewellery_categories }}
-            <nav>
-                <ul>
-                    {{ current_id = id }}
-                    {{ collection:hollowware :taxonomy:jewellery_categories="category" }}
-                        <li class="mb-4">
-                            <a
-                                href="{{ url }}"
-                                class="
-                                    text-white uppercase leading-snug
-                                    block
-                                    p-2
-                                    {{ if id == current_id }}bg-black{{ else }}bg-gray{{ /if }}
-                                "
-                            >
-                                {{ title }}
-                            </a>
-                        </li>
-                    {{ /collection:hollowware }}
-                </ul>
-            </nav>
         </div>
     </div>
     <main
@@ -110,6 +111,12 @@
                         {{ main_text | markdown }}
                     </figcaption>
                 {{ /if }}
+                {{ if year }}
+                    <dl class="text-white leading-snug mb-4">
+                        <dt class="uppercase font-bold text-sm mb-1">Year</dt>
+                        <dd>{{ year }}</dd>
+                    </dl>
+                {{ /if }}
                 {{ if materials }}
                     <dl class="text-white leading-snug mb-4">
                         <dt class="uppercase font-bold text-sm mb-1">Materials</dt>
@@ -124,10 +131,16 @@
                         <dd>{{ dimensions }}</dd>
                     </dl>
                 {{ /if }}
+                {{ process_series }}
+                    <p class="leading-snug mb-4">
+                        <a href="{{ url }}" class="text-white underline">View the Process Series »</a>
+                    </p>
+                {{ /process_series }}
                 {{ if for_sale }}
                     <dl class="text-white leading-snug">
                         <dt class="uppercase font-bold text-sm mb-1">Price</dt>
                         <dd class="font-bold">${{ price | format_number }} CAD</dd>
+                        <dd class="font-bold mt-2">{{ sale_region ?? 'Available for sale within Canada only' }}</dd>
                         {{ if sale_note }}
                             <dd class="text-sm mt-1">{{ sale_note }}</dd>
                         {{ /if }}
@@ -188,6 +201,7 @@
 
                         <div class="p-6">
                             <div data-inquire-form>
+                                <p class="font-bold mb-4">{{ sale_region ?? 'Available for sale within Canada only' }}.</p>
                                 <form
                                     name="inquire"
                                     method="POST"
@@ -289,6 +303,11 @@
                             }
                         })();
                     </script>
+                {{ else }}
+                    <p class="text-white font-bold leading-snug">
+                        <span class="inline-block w-3 h-3 rounded-full bg-red mr-1" aria-hidden="true"></span>
+                        This item is sold
+                    </p>
                 {{ /if }}
             </div>
         </figure>

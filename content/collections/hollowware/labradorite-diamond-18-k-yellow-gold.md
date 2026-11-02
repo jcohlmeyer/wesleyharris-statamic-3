@@ -7,22 +7,23 @@ jewellery_categories:
   - pendants
 main_photo: pendants/labradorite-diamond-18-k-yellow-gold/dsc_4275_1.jpg
 text_position: right
+year: '2002'
 materials:
   - '18 k. Yellow Gold'
-  - 'Labradorite'
-  - 'Diamond'
+  - Labradorite
+  - Diamond
 dimensions: '2" high, 0.5" wide'
 for_sale: false
 photo_grid:
   -
-    photo: pendants/labradorite-diamond-18-k-yellow-gold/dsc_4275_1.jpg
-    image_height: 367
-  -
     photo: pendants/labradorite-diamond-18-k-yellow-gold/dsc_3429_1.jpg
-    image_height: 367
+    image_height: 444
   -
     photo: pendants/labradorite-diamond-18-k-yellow-gold/dsc_4277_1.jpg
-    image_height: 367
+    image_height: 444
+  -
+    photo: pendants/labradorite-diamond-18-k-yellow-gold/dsc_4278_2.jpg
+    image_height: 444
 updated_by: 2d3ae5bf-3720-4ed3-b18c-469dc92f1ec3
 updated_at: 1719273600
 ---

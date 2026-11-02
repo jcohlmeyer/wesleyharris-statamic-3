@@ -7,18 +7,19 @@ jewellery_categories:
   - pendants
 main_photo: pendants/jadite-pendant/dsc_0882.jpg
 text_position: right
+year: '1983'
 materials:
   - 'Sterling Silver'
-  - 'Jadite'
+  - Jadite
 dimensions: '2.5" high, 1.25" wide, 0.25" thick'
 for_sale: false
 photo_grid:
   -
-    photo: pendants/jadite-pendant/dsc_0882.jpg
-    image_height: 367
-  -
     photo: pendants/jadite-pendant/dsc_0873.jpg
-    image_height: 367
+    image_height: 858
+  -
+    photo: pendants/jadite-pendant/dsc_0866.jpg
+    image_height: 444
 updated_by: 2d3ae5bf-3720-4ed3-b18c-469dc92f1ec3
 updated_at: 1719273600
 ---

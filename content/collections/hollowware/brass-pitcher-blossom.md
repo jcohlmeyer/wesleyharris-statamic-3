@@ -7,6 +7,7 @@ jewellery_categories:
   - hollowware
 main_photo: hollowware/brass-pitcher-blossom/dsc_1011_1.jpg
 text_position: right
+year: '1980'
 materials:
   - 'Yellow Brass'
   - '14 k. Yellow Gold'
@@ -15,14 +16,11 @@ dimensions: '13.5" high, 3.5" wide, 6.5" long'
 for_sale: false
 photo_grid:
   -
-    photo: hollowware/brass-pitcher-blossom/dsc_1011_1.jpg
-    image_height: 367
-  -
     photo: hollowware/brass-pitcher-blossom/dsc_1000_copy.jpg
-    image_height: 367
+    image_height: 858
   -
     photo: hollowware/brass-pitcher-blossom/dsc_1025_1.jpg
-    image_height: 367
+    image_height: 444
 updated_by: 2d3ae5bf-3720-4ed3-b18c-469dc92f1ec3
 updated_at: 1719273600
 ---

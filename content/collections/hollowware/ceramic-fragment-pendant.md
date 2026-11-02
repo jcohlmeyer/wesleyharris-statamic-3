@@ -7,6 +7,7 @@ jewellery_categories:
   - pendants
 main_photo: pendants/ceramic-fragment-pendant/dsc_2939.jpg
 text_position: right
+year: '2019'
 materials:
   - 'Sterling Silver'
   - 'Ceramic Beach-stone Fragment'
@@ -14,14 +15,14 @@ dimensions: '1.75" high, 1" wide, 0.25" deep'
 for_sale: false
 photo_grid:
   -
-    photo: pendants/ceramic-fragment-pendant/dsc_2939.jpg
-    image_height: 367
-  -
     photo: pendants/ceramic-fragment-pendant/dsc_2937.jpg
-    image_height: 367
+    image_height: 444
   -
     photo: pendants/ceramic-fragment-pendant/dsc_2940.jpg
-    image_height: 367
+    image_height: 444
+  -
+    photo: pendants/ceramic-fragment-pendant/dsc_2941.jpg
+    image_height: 444
 updated_by: 2d3ae5bf-3720-4ed3-b18c-469dc92f1ec3
 updated_at: 1719273600
 ---

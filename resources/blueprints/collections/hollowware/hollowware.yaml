@@ -25,9 +25,10 @@ sections:
           type: terms
           taxonomies:
             - jewellery_categories
-          max_items: 1
+          max_items: 2
           listable: hidden
           instructions_position: above
+          instructions: 'Pin/pendants can be listed in both Pendants and Brooches.'
       -
         handle: main_photo
         field:
@@ -72,6 +73,13 @@ sections:
           listable: hidden
           instructions_position: above
       -
+        handle: year
+        field:
+          display: Year
+          type: text
+          listable: hidden
+          instructions_position: above
+      -
         handle: materials
         field:
           display: Materials
@@ -89,6 +97,17 @@ sections:
           instructions_position: above
           instructions: 'e.g. 4" × 4" × 0.30"'
       -
+        handle: process_series
+        field:
+          display: 'Process Series'
+          type: entries
+          collections:
+            - process_series
+          max_items: 1
+          mode: select
+          listable: hidden
+          instructions_position: above
+      -
         handle: for_sale
         field:
           display: 'For Sale'
@@ -97,6 +116,7 @@ sections:
           listable: hidden
           instructions_position: above
           default: false
+          instructions: 'Pieces that are off show "This item is sold" and a red dot in listings.'
       -
         handle: price
         field:
@@ -108,6 +128,17 @@ sections:
           if:
             for_sale: 'equals true'
       -
+        handle: sale_region
+        field:
+          display: 'Sale Region'
+          type: text
+          icon: text
+          listable: hidden
+          instructions_position: above
+          instructions: 'Leave blank to show "Available for sale within Canada only". Only fill in to narrow it further.'
+          if:
+            for_sale: 'equals true'
+      -
         handle: sale_note
         field:
           display: 'Sale Note'
@@ -115,7 +146,7 @@ sections:
           icon: text
           listable: hidden
           instructions_position: above
-          instructions: 'e.g. Available for sale within Canada only.'
+          instructions: 'Payment and shipping terms, e.g. E-transfer in full and a mailing address must be received prior to shipping.'
           if:
             for_sale: 'equals true'
       -

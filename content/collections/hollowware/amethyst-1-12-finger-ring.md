@@ -7,21 +7,22 @@ jewellery_categories:
   - rings
 main_photo: rings/amethyst-1-12-finger-ring/dsc_0407.jpg
 text_position: right
+year: '1980'
 materials:
   - 'Sterling Silver'
-  - 'Amethyst'
+  - Amethyst
 dimensions: '1" high, 1.25" long'
 for_sale: false
 photo_grid:
   -
-    photo: rings/amethyst-1-12-finger-ring/dsc_0407.jpg
-    image_height: 367
-  -
     photo: rings/amethyst-1-12-finger-ring/dsc_0413.jpg
-    image_height: 367
+    image_height: 444
   -
     photo: rings/amethyst-1-12-finger-ring/dsc_0415.jpg
-    image_height: 367
+    image_height: 444
+  -
+    photo: rings/amethyst-1-12-finger-ring/dsc_0402.jpg
+    image_height: 444
 updated_by: 2d3ae5bf-3720-4ed3-b18c-469dc92f1ec3
 updated_at: 1719273600
 ---

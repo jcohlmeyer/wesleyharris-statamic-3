@@ -13,17 +13,14 @@ materials:
 dimensions: '1" high, 0.85" wide, 0.6" long, Size 8'
 for_sale: true
 price: 950
-sale_note: 'Available for sale within Canada only. E-transfer payment in full required prior to shipping.'
+sale_note: 'E-transfer in full and a mailing address must be received prior to shipping.'
 photo_grid:
   -
-    photo: rings/gold-and-sterling-ring/dsc_2472.jpg
-    image_height: 367
-  -
     photo: rings/gold-and-sterling-ring/dsc_2475.jpg
-    image_height: 367
+    image_height: 444
   -
     photo: rings/gold-and-sterling-ring/dsc_2474.jpg
-    image_height: 367
+    image_height: 444
 updated_by: 2d3ae5bf-3720-4ed3-b18c-469dc92f1ec3
 updated_at: 1719273600
 ---

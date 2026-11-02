@@ -7,6 +7,7 @@ jewellery_categories:
   - pendants
 main_photo: pendants/topaz-crystal/dsc_3978.jpg
 text_position: right
+year: '2004'
 materials:
   - 'Pure Silver'
   - 'Topaz Crystal'
@@ -14,8 +15,8 @@ dimensions: '1.25" high, 0.75" wide'
 for_sale: false
 photo_grid:
   -
-    photo: pendants/topaz-crystal/dsc_3978.jpg
-    image_height: 367
+    photo: pendants/topaz-crystal/dsc_3979_1.jpg
+    image_height: 444
 updated_by: 2d3ae5bf-3720-4ed3-b18c-469dc92f1ec3
 updated_at: 1719273600
 ---

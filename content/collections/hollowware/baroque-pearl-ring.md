@@ -7,6 +7,7 @@ jewellery_categories:
   - rings
 main_photo: rings/baroque-pearl-ring/baroque_pearl_ring.jpg
 text_position: right
+year: '1987'
 materials:
   - '14 k. Yellow Gold'
   - 'Baroque Pearl'
@@ -14,8 +15,8 @@ dimensions: '1.25" high, 0.33" wide'
 for_sale: false
 photo_grid:
   -
-    photo: rings/baroque-pearl-ring/baroque_pearl_ring.jpg
-    image_height: 367
+    photo: rings/baroque-pearl-ring/baroque-pearl-ring_1.jpg
+    image_height: 444
 updated_by: 2d3ae5bf-3720-4ed3-b18c-469dc92f1ec3
 updated_at: 1719273600
 ---

@@ -7,20 +7,18 @@ jewellery_categories:
   - brooches
 main_photo: brooches/alto-clef-brooch/dsc_0036.jpg
 text_position: right
+year: '2015'
 materials:
   - 'Sterling Silver'
 dimensions: '1.10" high, 1.0" wide'
 for_sale: false
 photo_grid:
   -
-    photo: brooches/alto-clef-brooch/dsc_0036.jpg
-    image_height: 367
-  -
     photo: brooches/alto-clef-brooch/dsc_0040.jpg
-    image_height: 367
+    image_height: 444
   -
     photo: brooches/alto-clef-brooch/dsc_0056.jpg
-    image_height: 367
+    image_height: 444
 updated_by: 2d3ae5bf-3720-4ed3-b18c-469dc92f1ec3
 updated_at: 1719273600
 ---

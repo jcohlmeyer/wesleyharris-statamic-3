@@ -7,14 +7,15 @@ jewellery_categories:
   - rings
 main_photo: rings/labradorite-interlocking-loops-rings/dsc_4409_1.jpg
 text_position: right
+year: '2004'
 materials:
   - '14 k. Yellow Gold'
-  - 'Labradorite'
+  - Labradorite
 for_sale: false
 photo_grid:
   -
-    photo: rings/labradorite-interlocking-loops-rings/dsc_4409_1.jpg
-    image_height: 367
+    photo: rings/labradorite-interlocking-loops-rings/dsc_4410_0.jpg
+    image_height: 444
 updated_by: 2d3ae5bf-3720-4ed3-b18c-469dc92f1ec3
 updated_at: 1719273600
 ---

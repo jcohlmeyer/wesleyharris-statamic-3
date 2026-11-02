@@ -7,15 +7,16 @@ jewellery_categories:
   - brooches
 main_photo: brooches/gray-and-white-agate/dsc_2869_0.jpg
 text_position: right
+year: '2003'
 materials:
   - 'Sterling Silver'
-  - 'Agate'
+  - Agate
 dimensions: '1.2" high, 2.45" wide'
 for_sale: false
 photo_grid:
   -
-    photo: brooches/gray-and-white-agate/dsc_2869_0.jpg
-    image_height: 367
+    photo: brooches/gray-and-white-agate/dsc_2867_1.jpg
+    image_height: 444
 updated_by: 2d3ae5bf-3720-4ed3-b18c-469dc92f1ec3
 updated_at: 1719273600
 ---

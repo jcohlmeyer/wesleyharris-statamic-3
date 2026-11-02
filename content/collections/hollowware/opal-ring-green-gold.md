@@ -7,8 +7,8 @@ jewellery_categories:
   - rings
 main_photo: rings/opal-ring-green-gold/dsc_0177.jpg
 text_position: right
-main_text: |-
-  This ring fit both the husband and wife who ordered it, and its overall shape incorporates their initials: "E" and "C".
+main_text: 'This ring fit both the husband and wife who ordered it, and its overall shape incorporates their initials: "E" and "C".'
+year: '2011'
 materials:
   - '18 k. Green Gold'
   - 'Australian Opal'
@@ -16,14 +16,14 @@ dimensions: '1.25" high, 0.85" wide'
 for_sale: false
 photo_grid:
   -
-    photo: rings/opal-ring-green-gold/dsc_0177.jpg
-    image_height: 367
-  -
     photo: rings/opal-ring-green-gold/dsc_0152.jpg
-    image_height: 367
+    image_height: 444
   -
     photo: rings/opal-ring-green-gold/dsc_0169.jpg
-    image_height: 367
+    image_height: 444
+  -
+    photo: rings/opal-ring-green-gold/dsc_0178.jpg
+    image_height: 444
 updated_by: 2d3ae5bf-3720-4ed3-b18c-469dc92f1ec3
 updated_at: 1719273600
 ---

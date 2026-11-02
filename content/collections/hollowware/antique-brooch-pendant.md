@@ -7,8 +7,8 @@ jewellery_categories:
   - pendants
 main_photo: pendants/antique-brooch-pendant/dsc_4250.jpg
 text_position: right
-main_text: |-
-  This pendant contains an antique brooch that belonged to the customer's grandmother. Emeralds were the birthstone of both the grandmother and the customer. All of the gems involved were extracted from other family jewellery.
+main_text: "This pendant contains an antique brooch that belonged to the customer's grandmother. Emeralds were the birthstone of both the grandmother and the customer. All of the gems involved were extracted from other family jewellery."
+year: '2024'
 materials:
   - 'Fine silver'
   - 'Antique brooch'
@@ -18,14 +18,14 @@ dimensions: '2.5" high, 1.55" wide, 0.65"'
 for_sale: false
 photo_grid:
   -
-    photo: pendants/antique-brooch-pendant/dsc_4250.jpg
-    image_height: 367
-  -
     photo: pendants/antique-brooch-pendant/dsc_4247.jpg
-    image_height: 367
+    image_height: 444
   -
     photo: pendants/antique-brooch-pendant/dsc_4248.jpg
-    image_height: 367
+    image_height: 444
+  -
+    photo: pendants/antique-brooch-pendant/dsc_4256.jpg
+    image_height: 444
 updated_by: 2d3ae5bf-3720-4ed3-b18c-469dc92f1ec3
 updated_at: 1719273600
 ---

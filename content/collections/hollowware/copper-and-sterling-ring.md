@@ -7,21 +7,22 @@ jewellery_categories:
   - rings
 main_photo: rings/copper-and-sterling-ring/dsc_6971.jpg
 text_position: right
+year: '2006'
 materials:
   - 'Sterling Silver'
-  - 'Copper'
+  - Copper
 dimensions: '1.05" high, 0.85" wide, 0.95" long'
 for_sale: false
 photo_grid:
   -
-    photo: rings/copper-and-sterling-ring/dsc_6971.jpg
-    image_height: 367
-  -
     photo: rings/copper-and-sterling-ring/dsc_6979.jpg
-    image_height: 367
+    image_height: 444
   -
     photo: rings/copper-and-sterling-ring/dsc_6974.jpg
-    image_height: 367
+    image_height: 444
+  -
+    photo: rings/copper-and-sterling-ring/dsc_6973.jpg
+    image_height: 444
 updated_by: 2d3ae5bf-3720-4ed3-b18c-469dc92f1ec3
 updated_at: 1719273600
 ---

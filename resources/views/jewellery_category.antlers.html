@@ -64,27 +64,8 @@
                 grid-cols-2 xl:grid-cols-3
             "
         >
-            {{ collection:hollowware :taxonomy:jewellery_categories="slug" }}
-                <a href="{{ url }}">
-                    {{ main_photo }}
-                        <img
-                            src="{{ glide:url height='313' width='475' }}"
-                            alt="{{ alt | smartypants | entities }}"
-                            loading="lazy"
-                            decoding="async"
-                        />
-                    {{ /main_photo }}
-                    <span
-                        class="
-                            block
-                            text-white uppercase font-bold
-                            bg-gray
-                            p-2 mt-2
-                        "
-                    >
-                        {{ title }}
-                    </span>
-                </a>
+            {{ collection:hollowware :taxonomy:jewellery_categories="slug" sort="for_sale:desc|order:asc" }}
+                {{ partial:artwork_card }}
             {{ /collection:hollowware }}
         </div>
     </main>
