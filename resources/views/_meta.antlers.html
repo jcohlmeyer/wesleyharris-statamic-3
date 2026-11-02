@@ -1,0 +1,11 @@
+{{ unless response_code == 404 }}
+<meta name="description" content="{{ {partial:page_description} | sanitize }}">
+<link rel="canonical" href="{{ permalink }}">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="{{ site:name }}">
+<meta property="og:url" content="{{ permalink }}">
+<meta property="og:title" content="{{ {partial:page_title} | sanitize }}">
+<meta property="og:description" content="{{ {partial:page_description} | sanitize }}">
+<meta property="og:image" content="{{ config:app:url }}{{ main_photo:url ?? curriculum_vitae_photo:url ?? '/assets/hollowware/sterling-water-pitcher/harris-sterling-silver-water-pitcher-view-two_2.jpg' }}">
+<meta name="twitter:card" content="summary_large_image">
+{{ /unless }}

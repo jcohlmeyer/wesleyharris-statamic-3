@@ -14,6 +14,28 @@ tabs:
               validate:
                 - required
           -
+            handle: meta_title
+            field:
+              input_type: text
+              antlers: false
+              display: 'Browser Title'
+              instructions: 'Replaces the page title in the browser tab and search results.'
+              type: text
+              icon: text
+              listable: hidden
+              instructions_position: above
+          -
+            handle: meta_description
+            field:
+              input_type: text
+              antlers: false
+              display: 'Search Description'
+              instructions: 'Shown in search results and when this page is shared.'
+              type: text
+              icon: text
+              listable: hidden
+              instructions_position: above
+          -
             handle: curriculum_vitae_photo
             field:
               mode: list
