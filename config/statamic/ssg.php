@@ -44,6 +44,7 @@ return [
         public_path('assets') => 'assets',
         public_path('mix-manifest.json') => 'mix-manifest.json',
         public_path('favicon.ico') => 'favicon.ico',
+        public_path('favicon.png') => 'favicon.png',
         public_path('robots.txt') => 'robots.txt',
     ],
 
