@@ -1,8 +1,29 @@
-<nav>
-    <ul class="flex uppercase font-bold text-gray">
+<button
+    type="button"
+    data-menu-toggle
+    aria-controls="main-menu"
+    aria-expanded="false"
+    aria-label="Menu"
+    class="
+        nav:hidden
+        flex items-center justify-center
+        w-10 h-10 -mr-2
+        text-gray
+    "
+>
+    {{# Heroicons bars-3 and x-mark (MIT); inherits currentColor. #}}
+    <svg data-menu-icon xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-6 h-6">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+    </svg>
+    <svg data-menu-icon xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="hidden w-6 h-6">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
+    </svg>
+</button>
+<nav id="main-menu" class="hidden nav:block w-full nav:w-auto">
+    <ul class="flex flex-col nav:flex-row uppercase font-bold text-gray pt-4 nav:pt-0">
         {{ nav:main_navigation }}
-            <li class="pl-4">
-                <a href="{{ url }}" {{ if is_current || is_parent }} class="text-black"{{ /if }}>
+            <li class="nav:pl-4">
+                <a href="{{ url }}" class="block py-2 nav:py-0 {{ if is_current || is_parent }}text-black{{ /if }}">
                     {{ title }}
                 </a>
             </li>

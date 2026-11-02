@@ -24,9 +24,14 @@ module.exports = {
             black: '#222',
             gray: '#58585a',
             white: '#f9f9f9',
-            red: '#d0021b',
         },
         extend: {
+            screens: {
+                // Smallest width where the logo and full main menu fit on one
+                // line, and where sub menus move into a sidebar. Raise this if
+                // items are added to the main navigation.
+                nav: '832px',
+            },
             typography: {
                 xl: {
                     css: {

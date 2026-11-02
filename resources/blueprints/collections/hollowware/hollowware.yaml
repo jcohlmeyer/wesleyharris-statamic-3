@@ -116,7 +116,7 @@ sections:
           listable: hidden
           instructions_position: above
           default: false
-          instructions: 'Pieces that are off show "This item is sold" and a red dot in listings.'
+          instructions: 'Pieces that are off show "This item has sold" on their page and in listings.'
       -
         handle: price
         field:
