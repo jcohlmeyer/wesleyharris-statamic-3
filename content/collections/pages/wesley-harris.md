@@ -3,6 +3,8 @@ id: d1f42fd1-cc2d-48a5-ae2c-3b46dfc9a02f
 blueprint: about_page
 template: about_page
 title: 'Wesley Harris'
+meta_title: 'Clean Lines and Classic Designs'
+meta_description: "Wesley Harris's Curriculum Vitae, Artist Statement and Biography"
 updated_by: 2d3ae5bf-3720-4ed3-b18c-469dc92f1ec3
 updated_at: 1636110034
 curriculum_vitae:

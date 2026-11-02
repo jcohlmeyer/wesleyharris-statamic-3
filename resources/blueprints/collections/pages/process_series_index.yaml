@@ -12,6 +12,17 @@ tabs:
               required: true
               validate:
                 - required
+          -
+            handle: meta_description
+            field:
+              input_type: text
+              antlers: false
+              display: 'Search Description'
+              instructions: 'Shown in search results and when this page is shared.'
+              type: text
+              icon: text
+              listable: hidden
+              instructions_position: above
   sidebar:
     display: Sidebar
     sections:
