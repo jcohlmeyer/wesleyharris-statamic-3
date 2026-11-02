@@ -1,27 +1,29 @@
 <div
     class="
-        flex flex-col md:flex-row
+        flex flex-col nav:flex-row
     "
 >
     <div
         class="
-            md:pr-3
-            flex-grow md:flex-shrink
-            md:flex-basis-1/4
-            md:relative
+            nav:pr-3
+            flex-grow nav:flex-shrink
+            nav:flex-basis-1/4
+            nav:relative
         "
     >
-        <div class="md:sticky top-4 z-40">
+        <div class="nav:sticky top-4 z-40">
             <h1
                 class="
                     text-white uppercase font-bold
                     bg-gray
                     mb-4 p-2
+                    relative flex items-center justify-between
                 "
             >
                 {{ title }}
+                {{ partial:submenu_toggle }}
             </h1>
-            <nav>
+            <nav id="submenu" class="hidden nav:block">
                 <ul>
                     {{ taxonomy:jewellery_categories }}
                         <li class="mb-4">
@@ -44,8 +46,8 @@
     </div>
     <main
         class="
-            flex-grow md:flex-shrink md:flex-basis-3/4
-            pt-6 md:pt-0
+            flex-grow nav:flex-shrink nav:flex-basis-3/4
+            pt-6 nav:pt-0
         "
     >
         <div

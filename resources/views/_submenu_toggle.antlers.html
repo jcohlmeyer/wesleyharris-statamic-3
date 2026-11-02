@@ -1,0 +1,24 @@
+{{# Sits in the sub menu's title bar on small screens, where the menu stacks
+    above the page. The ::after stretches the tap area over the whole bar. #}}
+<button
+    type="button"
+    data-menu-toggle
+    aria-controls="submenu"
+    aria-expanded="false"
+    aria-label="Section menu"
+    class="
+        nav:hidden
+        flex-shrink-0
+        flex items-center justify-center
+        w-6 h-6 ml-2
+        after:absolute after:inset-0
+    "
+>
+    {{# Heroicons chevron-down and chevron-up (MIT); inherits currentColor. #}}
+    <svg data-menu-icon xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-5 h-5">
+        <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+    </svg>
+    <svg data-menu-icon xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="hidden w-5 h-5">
+        <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 15.75 7.5-7.5 7.5 7.5" />
+    </svg>
+</button>

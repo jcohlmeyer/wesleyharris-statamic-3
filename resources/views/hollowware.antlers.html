@@ -1,17 +1,17 @@
 <div
     class="
-        flex flex-col md:flex-row
+        flex flex-col nav:flex-row
     "
 >
     <div
         class="
-            md:pr-3
-            flex-grow md:flex-shrink
-            md:flex-basis-1/4
-            md:relative
+            nav:pr-3
+            flex-grow nav:flex-shrink
+            nav:flex-basis-1/4
+            nav:relative
         "
     >
-        <div class="md:sticky top-4 z-40">
+        <div class="nav:sticky top-4 z-40">
             {{ current_id = id }}
             {{# Pin/pendants sit in two categories; the sidebar follows the first. #}}
             {{ jewellery_categories | limit:1 }}
@@ -20,11 +20,13 @@
                         text-white uppercase font-bold
                         bg-gray
                         mb-4 p-2
+                        relative flex items-center justify-between
                     "
                 >
-                    <a href="{{ url }}" class="text-white">{{ title }}</a>
+                    <a href="{{ url }}" class="text-white relative z-10">{{ title }}</a>
+                    {{ partial:submenu_toggle }}
                 </h1>
-                <nav>
+                <nav id="submenu" class="hidden nav:block">
                     <ul>
                         {{ collection:hollowware :taxonomy:jewellery_categories="slug" sort="for_sale:desc|order:asc" }}
                             <li class="mb-4">
@@ -48,11 +50,11 @@
     </div>
     <main
         class="
-            flex-grow md:flex-shrink
-            md:flex-basis-3/4
-            md:pl-3
+            flex-grow nav:flex-shrink
+            nav:flex-basis-3/4
+            nav:pl-3
             relative
-            pt-6 md:pt-0
+            pt-6 nav:pt-0
         "
     >
         <h2
@@ -304,10 +306,7 @@
                         })();
                     </script>
                 {{ else }}
-                    <p class="text-white font-bold leading-snug">
-                        <span class="inline-block w-3 h-3 rounded-full bg-red mr-1" aria-hidden="true"></span>
-                        This item is sold
-                    </p>
+                    <p class="text-white font-bold leading-snug">This item has sold</p>
                 {{ /if }}
             </div>
         </figure>

@@ -1,4 +1,4 @@
-<a href="{{ url }}" class="block">
+<a href="{{ url }}" class="flex flex-col">
     {{ main_photo }}
     <img
         src="{{ glide:url width='400' height='400' fit='crop_focal' }}"
@@ -9,7 +9,7 @@
     />
     {{ /main_photo }}
     <span class="
-        block
+        block flex-grow
         text-white uppercase font-bold
         bg-gray
         p-2 mt-2

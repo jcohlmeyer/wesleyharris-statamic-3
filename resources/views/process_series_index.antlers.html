@@ -1,12 +1,12 @@
 <div
     class="
-        flex flex-col md:flex-row
+        flex flex-col nav:flex-row
     "
 >
     {{ partial:secondary_navigation navigation='collection::process_series' navigation_title='Process Series' }}
     <main
         class="
-            flex-grow md:flex-shrink md:flex-basis-3/4
+            flex-grow nav:flex-shrink nav:flex-basis-3/4
         "
     >
         <h2
@@ -26,7 +26,7 @@
             "
         >
             {{ collection:process_series }}
-                <a href="{{ url }}">
+                <a href="{{ url }}" class="flex flex-col">
                     {{ main_photo }}
                         <img
                             src="{{ glide:url height='313' width='475' }}"
@@ -37,7 +37,7 @@
                     {{ /main_photo }}
                     <span
                         class="
-                            block
+                            block flex-grow
                             text-white uppercase font-bold
                             bg-gray
                             p-2 mt-2
